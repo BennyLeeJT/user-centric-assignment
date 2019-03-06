@@ -6,3 +6,5 @@ assignmentasd
 assignmentasdda
 sd
 asd
+
+Fonts used from Fontawesome
