@@ -1,15 +1,50 @@
-body {
-    /*background-attachment: fixed;*/
-    background-repeat: no-repeat;
-    background-color:white;
-}
-
 .logo {
-  max-width:100px;
+  max-width: 100px;
+  margin-right:25px;
 }
 
-.greybackground {
-  background-color:grey;
-  opacity: 0.1;
-  color:black;
+.whitebackground {
+  background-color: rgba(255, 255, 255, 0.5);
 }
+
+.carousel-caption {
+  color: black;
+}
+
+.btn-primary {
+  background-color: #CFAFAB;
+  margin-top: 5px;
+  border-color: #102066;
+  color: black;
+}
+
+/*.navbar-nav {*/
+/*  padding-left:250px;*/
+/*}*/
+
+#my-nav-bar ul li a {
+  text-align: center;
+  padding:0.5rem;
+}
+
+.btn-outline-success {
+    color: black;
+    background-color: #CFAFAB;
+    border-color: #102066;
+}
+
+.btn-outline-success:hover {
+    color: black;
+    background-color: #B09591;
+    border-color: #102066;
+}
+
+/*.btn-outline-success:not(:disabled):not(.disabled).active, .btn-outline-success:not(:disabled):not(.disabled):active, .show>.btn-outline-success.dropdown-toggle {*/
+/*    color: #fff;*/
+/*    background-color: #967F7C;*/
+/*    border-color: #967F7C;*/
+/*    border-top-color: rgb(40, 167, 69);*/
+/*    border-right-color: rgb(40, 167, 69);*/
+/*    border-bottom-color: rgb(40, 167, 69);*/
+/*    border-left-color: rgb(40, 167, 69);*/
+/*}*/
