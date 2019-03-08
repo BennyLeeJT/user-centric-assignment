@@ -1,0 +1,15 @@
+body {
+    /*background-attachment: fixed;*/
+    background-repeat: no-repeat;
+    background-color:white;
+}
+
+.logo {
+  max-width:100px;
+}
+
+.greybackground {
+  background-color:grey;
+  opacity: 0.1;
+  color:black;
+}
