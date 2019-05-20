@@ -24,7 +24,7 @@
 
 #my-nav-bar ul li a {
   text-align: center;
-  padding:0.5rem;
+  padding: 0.1rem 0.5rem;
 }
 
 .btn-outline-success {
@@ -144,4 +144,33 @@ h2, h5 {
 
 #aboutus-body-background {
   background-image : url(../images/background01.jpg);
+}
+
+
+#about-us-div{
+  padding:10px;
+  margin:10px;
+  border: 10px;
+  /*margin-top: 16px;*/
+  /*text-justify: inter-word;*/
+}
+
+#contact-info-div {
+  padding-left:0px;
+  margin-left:0px;
+  margin-top: 0px;
+}
+
+.html-inner-headings {
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+.contact-info-ul {
+  margin: 10px;
+  padding: 10px;
+}
+
+#call-to-action {
+  margin-left:20px;
 }
