@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+    <meta charset="utf-8">
+
+    <meta name="viewport" content="width-device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="assets/css/style.css" />
+
+    <title>BRISK</title>
+
+</head>
+
+<body>
+    <nav id="main" class="navbar navbar-expand-md bg-white navbar-light">
+        <!-- Brand -->
+        <!--<a class="navbar-brand" href="#">Navbar</a>-->
+        <!--<div>-->
+        <img class="logo" src="assets/images/BRISK2-transparency.png" height=100px width=100px></img>
+        <!--</div>-->
+        <!-- Toggler/collapsibe Button -->
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#my-nav-bar">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+        <!-- Navbar links -->
+        <div class="collapse navbar-collapse" id="my-nav-bar">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link" href="index.html">Home</a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link" href="find-agent.html">Talk to a Professional</a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link" href="latest-news-and-trends.html">Latest News & Trends</a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link" href="education-and-cases.html">Education & Cases</a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link" href="about-us-contact-info.html">About Us & Contact Info</a>
+                </li>
+            </ul>
+
+            <div class='ml-auto'>
+                <form class="form-inline my-2 my-lg-0 mr-auto">
+                    <input class="form-control mr-sm-2" type="search" placeholder="type here to search..." aria-label="Search">
+                    <button class="btn btn-outline-success my-2 my-sm-0 ml-auto p-2" type="submit">Search</button>
+                </form>
+            </div>
+
+            <!--class="collapse navbar-collapse" id="my-nav-bar">-->
+        </div>
+    </nav>
+
+    <header>
+        <h2>Connect with an advisor</h2>
+        <h5>Leave us your contact details</h5>
+    </header>
+
+    <form>
+        <ul class="agent-ul">
+            <li class="agent-li">
+                <label for="Salutation">Salutation</label>
+                <input id="agent-input" type="text" required/>
+            </li>
+
+            <li class="agent-li">
+                <label for="your-name">Your Name</label>
+                <input type="text" required/>
+            </li>
+
+            <li class="agent-li">
+                <label for="your-email">Your Email</label>
+                <input type="email" placeholder="something@something.com" required />
+            </li>
+            
+            <li class="agent-li">
+                <label for="your-mobile">Your Mobile</label>
+                <input type="number" required/>
+            </li>
+            
+            <li class="agent-li">
+                <label for="your-enquiry">Your Enquiry</label>
+                <textarea rows="4" cols="25" required></textarea>
+            </li>
+
+            <input type="submit" value="Submit">
+
+        </ul>
+
+    </form>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+</body>
+
+</html>

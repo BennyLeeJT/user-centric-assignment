@@ -48,3 +48,100 @@
 /*    border-bottom-color: rgb(40, 167, 69);*/
 /*    border-left-color: rgb(40, 167, 69);*/
 /*}*/
+
+li {
+  list-style:none;
+  margin: 15px 0;
+}
+
+
+.agent-ul {
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+}
+
+input[type=email], input[type=number], input[type=text] {
+   width: 205px;
+}
+
+input[type=submit] {
+   width: 105px;
+}
+
+
+/* Hide HTML5 input type number Up and Down arrows. */
+input[type="number"]::-webkit-outer-spin-button, input[type="number"]::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+input[type="number"] {
+    -moz-appearance: textfield;
+}
+
+
+
+
+
+.agent-li {
+  /*display: inline-block;*/
+  position: relative;
+}
+
+label {
+  position: absolute;
+  /*width: 205px;*/
+  left: 0;
+}
+
+input, textarea {
+  margin-left: 100px;
+}
+
+/*.agent-div {*/
+/*  width: 205px;*/
+/*  display: inline-block;*/
+/*}*/
+
+
+
+.your-contact-details {
+  padding-left: 10px;
+  display: flex;
+}
+
+.agent-column1 {
+  width: 130px;
+  min-width: 130px;
+  /*flex: 1.25 100px;*/
+  /*padding-right: 100px;*/
+  /*flex: inherit;*/
+}
+
+.agent-column2 {
+  /*flex-basis: 100%;*/
+  /*flex: 11;*/
+  /*padding-left: 10px;*/
+  /*flex: initial;*/
+  /*flex: 0 1 auto;*/
+  /*align-items: flex-start;*/
+  /*flex-wrap: wrap;*/
+  /*flex-direction: row-reverse;*/
+}
+
+h2, h5 {
+  padding: 5px 10px;
+}
+
+/*LENGTH OF SEARCH INPUT WIDTH*/
+.form-inline .form-control,
+#contain_word
+{
+    /*display: block;*/
+    width: 100%;
+}
+
+#aboutus-body-background {
+  background-image : url(../images/background01.jpg);
+}
